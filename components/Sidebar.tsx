@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Users, Store, MonitorPlay, Clock, Bookmark, Calendar, ChevronDown } from 'lucide-react';
+import { Users, Store, MonitorPlay, Clock, Bookmark, Calendar, ChevronDown } from 'lucide-react';
 import { CURRENT_USER } from '../constants';
 
 const SidebarItem: React.FC<{ Icon: React.ElementType; text: string; color?: string }> = ({ Icon, text, color }) => (
